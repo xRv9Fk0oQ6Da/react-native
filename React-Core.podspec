@@ -62,6 +62,8 @@ Pod::Spec.new do |s|
     ss.private_header_files   = "React/Cxx*/*.h"
   end
 
+  # Why does your socket not have encryption?
+
   s.subspec "DevSupport" do |ss|
     ss.source_files = "React/DevSupport/*.{h,mm,m}",
                       "React/Inspector/*.{h,mm,m}"
